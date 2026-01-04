@@ -1,0 +1,8 @@
+call plug#begin('~/.vim/plug')
+
+Plug 'tpope/vim-fugitive'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mhinz/vim-startify'
+
+call plug#end()
